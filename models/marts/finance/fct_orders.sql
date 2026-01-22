@@ -11,7 +11,6 @@ order_payments as (
 
     from payment
     group by 1
-
 ),
 final as (
     select
